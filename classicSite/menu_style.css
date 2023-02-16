@@ -1,0 +1,61 @@
+@media (max-width: 479px){
+   .row {
+        flex-direction: column;
+   }
+}
+
+.menu__style {
+}
+
+.kind_menu {
+    margin-bottom: 40px;
+}
+
+.title_of_kind {
+    text-align: center;
+    font-weight: 600;
+    font-size: 120%;
+    margin-top: 70px;
+}
+
+.img_dish {
+    width: 280px;
+    height: 280px;
+    padding: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding:20px;
+
+    /*background-color: #FDCF59;*/    
+}
+
+.card:hover {
+    box-shadow: 1px 1px 5px 4px #ccc;
+    transform: scale(1.05);
+    transition: 500ms;
+}
+
+.description_dish {
+    background-color: #FDCF59;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    padding: 12px 0px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.price {
+    font-weight: 600;
+}
+
