@@ -1,0 +1,122 @@
+
+.info {
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.bgr_img {
+    background-image: url("images/1.png");
+    background-size: 100%;
+    height: auto;
+    padding: 80px 60px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.columns {
+    display: flex;
+}
+
+.title_img {
+    width: 26%;
+    height: auto;
+    margin-top: -135px;
+}
+
+.left_column_menu {
+    width: 47%;
+    margin-right: 35px;
+}
+
+.right_column_menu {
+    width: 47%;
+    margin-left: 35px;
+}
+
+.horizontal_line {
+    margin: 30px 0px;
+}
+
+.vertical_line {
+    margin-bottom: 35px;
+}
+
+.category_title {
+    font-family: 'Captain Howdy';
+    font-size: 30px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.category_description {
+    font-family: 'Zen Antique Soft Regular';
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.special_1 {
+    width: 83%;
+}
+
+.special_2 {
+    width: 15%;
+    text-align: right;
+}
+
+.images_menu {
+    background-size: 95%;
+    height: auto;
+}
+
+.img_1 {
+    width: 50%;
+    margin-top: -60px;
+    margin-left: 170px;
+}
+
+.img_2 {
+    margin-left: 120px;
+}
+
+.img_3 {
+    margin-left: 130px;
+}
+
+.img_4 {
+    margin-left: 60px;
+}
+
+.img_5 {
+    margin-top: -340px;
+    margin-left: 120px;
+    width: 70%;
+}
+
+.img_6 {
+    margin-top: -140px;
+    margin-left: 230px;
+    width: 40%;
+}
+
+.img_7 {
+    margin-top: -70px;
+    margin-left: 190px;
+    width: 45%;
+}
+
+.img_8 {
+    margin-top: -20px;
+    margin-left: 90px;
+}
+
+.img_9 {
+    width: 52%;
+    margin-top: -270px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}

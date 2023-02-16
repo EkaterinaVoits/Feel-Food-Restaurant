@@ -1,0 +1,387 @@
+/* Обнуление */
+*, *::before, *::after {
+	padding: 0;
+	margin:0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: black;
+	display: flex;
+}
+ul, ol, li {
+	list-style: none;
+	display: block;
+}
+img {
+	vertical-align: top; /*Выравнивает элемент по вертикали относительно своего родителя, окружающего текста или ячейки таблицы*/
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: inherit;
+	font-size:inherit;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	color: #574C43;
+	font-size: 18px;
+	background-image: url("images/body_bgr.jpg");
+	background-attachment:fixed;
+	background-size: 100% ;
+	font-family: 'Playfair Display Regular';
+}
+
+@font-face 
+{
+  font-family: Barocco Initial; 
+  src: url(fonts/barocco-initial.ttf); 
+}
+
+@font-face 
+{
+  font-family: Playfair Display Regular; 
+  src: url(fonts/PlayfairDisplay-VariableFont_wght.ttf); 
+}
+
+@font-face 
+{
+  font-family: Cabbagetown; 
+  src: url(fonts/cabbagetown.ttf); 
+}
+
+@font-face 
+{
+  font-family: Captain Howdy; 
+  src: url(fonts/captain-howdy.ttf); 
+}
+
+@font-face 
+{
+  font-family: Flamingo; 
+  src: url(fonts/flamingo.ttf); 
+}
+
+@font-face 
+{
+  font-family: Yeseva One Regular; 
+  src: url(fonts/YesevaOne-Regular.ttf); 
+}
+
+@font-face 
+{
+  font-family: Zen Antique Soft Regular; 
+  src: url(fonts/ZenAntiqueSoft-Regular.ttf); 
+}
+
+
+.container {
+	max-width: 1220px;
+	/*позиционирование по центру*/
+	margin: 0 auto; 
+	padding: 0px 30px;
+}
+
+.arrow:hover {
+	transform: scale(1.03);
+	transition: 500ms;
+}
+
+
+/*-------------------------------------HEADER------------------------------------------*/
+
+.header {
+	margin: 0 auto; 
+}
+
+.headerBeforeNav {
+	padding: 40px 0px;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #524A2F;
+}
+
+.work {
+	font-family: 'Yeseva One';
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.central_logo_header {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo_text a{
+	font-family: 'Cabbagetown';
+	color: #413E39;
+	font-size: 36px;
+	margin-top: 10px;
+}
+
+.withLogo {
+	font-family: 'Yeseva One';
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+	border-top: 2px solid #726951;
+	border-bottom: 2px solid #726951;
+}
+
+.menu {
+	display: flex;
+	flex-wrap: nowrap;
+	position: relative;
+	padding: 18px 0px;
+
+}
+
+.menu_item {
+	padding: 0px 22px;
+	font-family: 'Zen Antique Soft';
+	text-transform: uppercase;
+}
+
+.menu_item:hover {
+	text-shadow: 2px 1px 2px #726951;
+	transform: scale(1.02);
+	transition: 500ms;
+}
+
+
+/*-------------------------------------CONTENT------------------------------------------*/
+
+.about {
+	padding-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.left_column {
+	width: 60%;
+	margin-right: 25px;
+}
+
+.vertical_line {
+	width: 2px;
+	background-color: #726951;
+	padding-bottom: 60px;
+	margin-bottom: 85px;
+}
+
+.horizontal_line {
+	height: 2px;
+	background-color: #726951;
+	margin: 50px 0px;
+}
+
+.right_column {
+	width: 38%;
+	margin-bottom: 100px;
+	margin-left: 25px;
+}
+
+
+/*--------------1 BLOCK----------------*/
+
+.content_1 {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*margin-right: 15px;*/
+}
+
+.title_content_1 {
+	font-family: 'Captain Howdy';
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.text {
+	text-align: justify;
+	font-family: 'Playfair Display Regular';
+}
+
+.beef_img {
+	width: 52%;
+	height: auto;
+	margin-top: 16px;
+}
+
+
+/*--------------2 BLOCK----------------*/
+
+.content_block_2 {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+   /* margin-right: 30px;*/
+}
+
+.content_2 {
+	margin-left: 30px;
+}
+
+.title_content_2 {
+	font-family: 'Flamingo';
+	font-size: 75px;
+	margin-bottom: 10px;
+	display: flex;
+    align-items: center;
+}
+
+.title_content_2 p {
+	margin-right: 15px;
+}
+
+.pizzaCream_img {
+	width: 42%;
+	height: auto;
+	margin-top: -25px;
+}
+
+
+/*--------------3 BLOCK----------------*/
+
+.content_block_3 {
+	display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.form {
+	padding-top: 20px;
+}
+
+.title_content_3 {
+	font-family: 'Captain Howdy';
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+.check_btn {
+	font-family: 'Barocco Initial';
+	font-size: 16px;
+	padding: 10px 20px;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	background-color: transparent;
+	border: 1px solid black; 
+}
+
+.check_btn:hover {
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+	transform: scale(1.02);
+	transition: 500ms;
+}
+
+.first_row {
+	display: flex;
+    justify-content:  space-between;
+}
+
+.input_class {
+	padding: 7px 12px;
+	margin: 4px 0px 20px 0px;;
+	background-color: transparent;
+	border: 1px solid black; 
+}
+
+.row {
+	margin-right: 50px;
+}
+
+
+/*--------------4 BLOCK----------------*/
+
+.content_4 {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title_content_4 {
+	font-family: 'Barocco Initial';
+	font-size: 37px;
+	margin-bottom: 20px;
+	display: flex;
+    align-items: center;
+	/*color: #574C43;*/
+}
+
+
+.cup_img {
+	width: 35%;
+	height: auto;
+	margin-left: 200px;
+}
+
+/*--------------5 BLOCK----------------*/
+
+.text_5 p {
+	margin: 10px 0px;
+}
+
+.bold {
+	font-weight: 600;
+}
+
+.vaflya_img {
+	width: 65%;
+	height: auto;
+	margin-left: 200px;
+}
+
+.bold {
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+
+/*-------------------------------------FOOTER------------------------------------------*/
+
+.footer {
+	padding-top: 30px;
+	border-top: 2px solid #726951;
+	padding-bottom: 10px;
+}
+
+.foter_content {
+	display: flex;
+    flex-direction: column;
+	
+}
+
+.top_row {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.buttom_row {
+	text-align: center;
+}
+
+.logo_footer {
+	font-family: 'Cabbagetown';
+	font-size: 18px;
+}
+
+
+.mycontent {
+	padding-top: 10px;
+}
+
+.mycontent::before{
+    content: "\00A9"; /*с помощью \00A9 вставляем знак копирайта*/
+}   
